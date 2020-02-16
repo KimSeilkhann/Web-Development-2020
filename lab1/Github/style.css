@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position:absolute;
+    background-color: #25282D;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:10%;
+
+}
+.left-logo{
+    position:absolute;
+    margin-left:100px;
+    margin-top: 20px;
+  
+}
+.background{
+    background-color:#2C3135;
+    width:110%;
+}
+.searchbt{
+    position: absolute;
+    margin-left:850px;
+    margin-top: 20px;
+    width: 300px;
+}
+.searchbt input{
+    font-size: 15px;
+    width: 80%;
+    height: 30px;
+    background-color: rgb(50, 55, 59);
+}
+.sign{
+    margin-left: 1110px;
+}
+.in, .up{
+    width: 20%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color:#25282D;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border:1px solid #25282D;
+}
+.up{
+    margin-left: 5px;
+    border-color: white;
+}
+.texts{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: 200;
+    line-height: normal;
+}
+.reg-block{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 95px;
+    border-radius: 2px;
+    border: 5px solid white;
+    width:430px;
+    height: 500px;
+    background-color:white;
+}
+
+h1{
+    font-size:65px;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 500;
+    line-height: 1;
+}
+p{
+    line-height: 30px;
+    font-size: 22px;
+    color:rgb(139, 144, 148)
+}
+#text1{
+    position: absolute;
+    top:25%;
+    left:5%;
+    width:100%;
+    font-size: 16px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    position:static;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 8px;
+    background-color: #fafbfc;
+    display: block;
+    line-height: 20px;
+    color: #24292e;
+    margin-top:3%;
+    border: 1px solid #d1d5da;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+    margin-bottom: 14px;
+}
+
+.clicking {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #24292e;
+    line-height: 1;
+
+}
+
+.submit {
+    padding: 20px 32px;
+    background-color: #2ebc4f;
+    border-color: #2ebc4f;
+    font-weight: 500;
+    color: #fff;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #1074e7;
+    border-radius: 3px;
+    transition: .2s;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 19px;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    text-transform: none;
+}
+
+.last1 {
+    margin-top: 16px;
+    color: #6a737d;
+    margin-bottom: 0px;
+    line-height: 1.5;
+}
+a:link{
+    color:#3897f1;
+    text-decoration: none;  
+    font-weight: 100;
+  }

@@ -1,0 +1,6 @@
+.images-item{
+    transition: transform .20s ease;
+}
+.images-item:hover{
+    transform: scale(1.03);
+}

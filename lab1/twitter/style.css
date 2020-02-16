@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+
+#left-side {
+    /*background-color: #71C9F8;*/
+    width: 49%;
+    height: 100%;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top:0px;
+    background-image:url("bird.png");
+    text-align: center;
+}
+
+#right-side {
+    height: 100%;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 3px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    width: 51%;
+}
+
+.first{
+    display: inline-block;
+    height: 10px;
+    margin-top: 30%;
+    
+}
+
+.next {
+    
+    height: 10px;
+    margin-top: 8%;
+    margin-bottom: 13%;
+}
+
+.icons{
+    height: 25px;
+    margin: 3px;
+}
+
+
+#logo {
+    height: 63px;
+    position: relative;
+    top: 109px;
+    left: 142px;
+}
+
+#hh {
+    position: relative;
+    top:80px;
+    margin-left: 150px;
+    margin-right: 142px;
+    margin-bottom: 150px;
+    font-size: 32px;
+    font-weight: 799;
+}
+
+#pp {
+    margin-left: 153px;
+    font-size: 84%;
+}
+
+#reg {
+    margin-left: 153px;
+    background-color: #1DA1F2;
+    border-radius: 25px;
+    border: 2px solid #1DA1F2;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 110px;
+    margin-bottom: 16px;
+}
+
+#reg:hover {
+    background-color: #1A91DA;
+}
+
+#log {
+    margin-left: 153px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #1DA1F2;
+    color: #1DA1F2;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 165px;
+}
+
+#log:hover{
+    background-color: rgb(234, 248, 255);
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    height: 12%;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    padding-top: 0px;
+}
+
+#footdiv {
+    padding-top: 18px;
+}
+
+.ftext {
+    margin: 7px;
+    padding: 3px;
+    padding-bottom: 5%;
+}

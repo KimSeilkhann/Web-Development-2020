@@ -1,0 +1,15 @@
+<h3>
+    <a [title]="product.name + 'details'" href = {{product.link}} style="text-decoration: underline;">
+        {{product.name}}
+    </a>
+</h3>
+
+<p *ngIf="product.description">
+    Description: {{product.description}}
+</p>
+<p *ngIf = "product.rating">
+Rating: {{product.rating}}
+</p>
+<div>
+<img class = "images-item" src = {{product.image}} width = 50%>
+</div>

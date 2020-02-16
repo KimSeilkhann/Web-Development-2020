@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    left: 0;
+    top: 0;
+    border: 1px solid darkblue;
+    width: 100%;
+    margin: 0px 0px;
+    z-index: 100;
+    height: 90px;
+    background-color:#3f5d9a;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: initial;
+    font-size: 15px;
+}
+section{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    height: 90%;
+    background-color: #e6e9f2;
+}
+h2{
+    color:#22375E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 25px;
+}
+.main-reg{
+    position: absolute;
+    left: 50%;
+    width: 60%;
+    height: 100%;
+    margin-left: 70px;
+}
+.main-reg h1{
+    position: absolute;
+    left: 8%;
+    margin-top: 22px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 35px;
+
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333333;
+}
+.main-reg h2{
+    position: absolute;
+    left: 8%;
+    top: 10%; 
+    margin-top:10px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    font-weight: 400;
+    line-height: 1;
+    color: #333333;
+}
+.main-reg .regform{
+    position: absolute;
+    left:8%;
+    top: 17%;
+    width: 80%;
+    height: 80%;
+}
+.networkpart{
+    margin-left: 220px;
+    margin-top: 40px;
+}
+.left-logo{
+    position: absolute;
+    background-color: #3B5999;
+    height: 90px;
+}
+.main-photos{
+    margin-left:200px; 
+    margin-top: auto;
+}
+.right-reg{
+    position: absolute;
+    left: 47.5%;
+    width: 70%;
+
+    height: 100%;
+    margin-right: 200px;
+    margin-top: 30px;
+    
+}
+
+.right-reg form{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.namesform{
+    position: absolute;
+    left: 10%;
+}
+.passwordsform{
+    position: absolute;
+    left: 40%;
+}
+.buttonform{
+    position: absolute;
+    left: 55%;
+    top: 2.5%;
+}
+#text-3{
+    position: absolute;
+    left: 40%;
+    margin-top: 40px;
+    font-size: 12px;
+    opacity: 50%;
+    text-decoration-line: none;
+    color:white;
+}
+#name{
+    position: absolute;
+    height: 6%;
+    width: 27%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#surname{
+    position: absolute;
+    left: 29%;
+    height: 6%;
+    width: 25%;
+    border-radius: 5px;
+    margin-right: 50px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+#onemail{
+    position: absolute;
+    left: 0%;
+    top: 7.5%;
+    height: 6%;
+    width: 63%;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top:2px;
+
+}
+#password{
+    position: absolute;
+    left: 0%;
+    top: 15.6%;
+    height: 6%;  
+    width: 63%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+#bdaylabel{
+    position: absolute;
+    left: 0%;
+    top: 25%;
+    height: 3%;
+    width: 25%;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #8d8d8d;
+    font-size:16px;
+}
+#day, #month, #year{
+    position: absolute;
+    left: 0%;
+    top: 29%;
+    height: 6%;
+    width: 10%;
+    border-radius: 0px;
+}
+#day{
+    left: 0%;
+}
+#month{
+    left: 11%;
+}
+#year{
+    left: 22%;
+}
+#text-4{
+    position: absolute;
+    left: 0%;
+    top: 36%;
+    height: 3%;
+    width: 25%;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #8d8d8d;
+    font-size:16px;  
+}
+#femalel, #malel, #otherl{
+    position: absolute;
+    top:39%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#male, #female, #other{
+    position: absolute;
+    top: 40%;
+}
+#other{
+    left:33%;
+}
+#otherl{
+    left: 36%;
+    font-size:18px;
+}
+#male{
+    left: 17%;
+}
+#femalel{
+    left: 3%;
+    font-size:18px;
+}
+#malel{
+    left: 20%;
+    font-size:18px;
+}
+
+.confirm{
+    position: absolute;
+    top: 45%;
+    font-size: 14px;
+    right: 40%;
+    color: #777b7c;
+}
+.confirm a{
+    color: #707dc4;
+}
+.confirm a:visited{
+    color: #707dc4;
+}
+.main-reg .bttn_submit{
+    position: absolute;
+    top: 100px;
+    background-color: #62a24f;
+    height: 40px;
+    width: 50%;
+    left: 1%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: #3b6e22;
+}
+.stars{
+    position: absolute;
+    top: 170px;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

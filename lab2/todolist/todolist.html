@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Kymbat's ToDo List:3</title>
+    <link rel = "stylesheet" type= text/css href = "style.css">
+</head>
+<body>
+        <div class = "header">
+            <h1 style = "color:rgb(251, 255, 0); margin-left: 5%;">ToDo List</h1> 
+        </div>
+        <div class = "main-body">
+            <h2 style = "color: rgb(54, 54, 54); margin-left: 30%;">Your ToDo List </h2>
+            <div class="form">
+                <input type="text" onkeypress="return trigger(event)" placeholder="New Task" id="in">
+                <button class="add" onclick="add()"> Add </button>
+            </div>
+            <div id="items">
+                <div class="item">
+                    <input class="checker" onclick="check(this)" type="checkbox">
+                    <label>First item</label>
+                    <button class="delete" onclick="remove(this)">-</button>
+                </div>
+            </div>
+            <button class="add" onclick="cls()"> Clear </button>
+        </div>
+        <script src = "jscode.js"></script>
+   
+</body>
+
