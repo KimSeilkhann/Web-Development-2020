@@ -1,0 +1,15 @@
+:host{
+    font-family: monospace;
+    font-size: 20px;
+    color: grey;
+}
+.actor{
+    border: 1px solid black;
+    font-size: 20px;
+}
+.comments{
+    background-color: 1px solid grey;
+}
+.title {
+    color: blue;
+}

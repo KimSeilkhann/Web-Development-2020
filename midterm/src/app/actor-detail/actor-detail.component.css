@@ -1,0 +1,14 @@
+:host{
+    font-family: monospace;
+    font-size: 20px;
+    color: grey;
+}
+.title{
+    color: blue;
+
+}
+.btn{
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: 1px solid black;
+}
